@@ -1,17 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GradedLab 1</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <a href="main-content" class="skip-link"></a>
-
+    <a href="main-content" class="skip-link">Skip to content</a>
     <header>
         <h1>Graded Lab 1</h1>
         <h1>Mainboard</h1>
@@ -24,22 +19,21 @@
 
     <main id="main-content">
         <section>
-            <h2>Tasks</h2>
-            <ul>
-                <li>Study DSW</li>
-                <li>Buy food</li>
-            </ul>
+            <h2>Add New Task</h2>
+            <form action="#" method="post">
+                <label>Task: </label>
+                <input type="text" id="task-name" name="task-name" required>
+
+                <label>Complete by: </label>
+                <input type="date" id="date-due" name="date-due" required>
+
+
+            </form>
         </section>
     </main>
 
-    
-
-    
-
     <footer>
-        <p>About. Tasks to complete.</p>
+        <p>Adding tasks. page 2</p>
     </footer>
-
 </body>
-
 </html>
